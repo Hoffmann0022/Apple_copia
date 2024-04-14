@@ -1,0 +1,1191 @@
+
+h1,h2{
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:#6e6e73;
+}
+.link{
+    font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:#1d1d1f;
+    font-size: 12px;
+    text-decoration: none;
+    font-style: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+span{
+    color: #1d1d1f;
+}
+h1{
+    font-size: 46px;
+    font-style: normal;
+}
+h2{
+    font-size: 24px;
+    font-style: normal;
+}
+
+body{
+    background-color: #faf5f5;;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    overflow-x: hidden;
+
+}
+.header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo{
+    height: 33px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.pesquisa{
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.Sacola{
+    height: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.title_div{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 0px;
+}
+p{
+    font-size: 15px;
+}
+.contact{
+    width: 250px;
+    height: 300px;
+    transform: translateX(70px) translateY(15px);
+    justify-content:space-around;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#chat_1{
+    height: 35px;
+    padding: 20px;
+    transform: translateX(-63px) translateY(65px);
+    
+}
+
+#link-1{
+    transform:translateY(-10px);
+}
+
+#chat{
+    height: 30px;
+    padding: 20px;
+    transform: translateX(-58px) translateY(-15px);
+}
+#chat-p{
+    transform:translateY(-85px);
+}
+#chat-link{
+    transform:translateY(-95px);
+}
+
+.contact a{
+    text-decoration: none;
+    font-size: 15px;
+    color:#06c
+}
+
+#link-1  :hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+#chat-link  :hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.carrossel_1 img {
+    height: 80px;
+    cursor: pointer;
+}
+.product :hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.carrossel_1 p {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.product{
+   text-align: center;
+   padding: 10px;
+   transition: 0.7s ease-in-out;
+}
+
+.carrossel_1{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    position: relative;
+    width: 1100px;
+    justify-content: center;
+}
+
+.arrow{
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    top: 30%;
+}
+
+ .arrow button{
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(233, 232, 232);
+    margin: 0 20px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight:900;
+    color: #424242;
+    opacity: 0.5;
+    margin: 0;
+}
+.arrow :hover{
+    transform: scale(110%);
+    box-shadow: 2px 4px 12px #00000025;
+    transition: 1s ;
+    opacity: 0.87;
+}
+.arrow_2{
+    width: 113%;
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    top: 45%;
+}
+
+ .arrow_2 button{
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(233, 232, 232);
+    margin: 0 20px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight:900;
+    color: #424242;
+    opacity: 0.5;
+}
+.arrow_2 :hover{
+    transform: scale(110%);
+    opacity: 0.87;
+    box-shadow: 2px 4px 12px #00000025;
+    transition: 1s ;
+}
+.arrow_3{
+    width: 113%;
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    top: 45%;
+}
+
+ .arrow_3 button{
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(233, 232, 232);
+    margin: 0 20px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight:900;
+    color: #424242;
+    opacity: 0.5;
+}
+.arrow_3 :hover{
+    transform: scale(110%);
+    opacity: 0.87;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
+    transition: 1s ;
+}
+
+.arrow_4{
+    width: 113%;
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    top: 45%;
+}
+
+ .arrow_4 button{
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(233, 232, 232);
+    margin: 0 20px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight:900;
+    color: #424242;
+    opacity: 0.5;
+}
+.arrow_4 :hover{
+    transform: scale(110%);
+    opacity: 0.87;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
+    transition: 1s ;
+}
+
+.arrow_5{
+    width: 113%;
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    top: 45%;
+}
+
+ .arrow_5 button{
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(233, 232, 232);
+    margin: 0 20px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight:900;
+    color: #424242;
+    opacity: 0.5;
+}
+.arrow_5 :hover{
+    transform: scale(110%);
+    opacity: 0.87;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
+    transition: 1s ;
+}
+
+
+.arrow_6{
+    width: 113%;
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    top: 45%;
+}
+
+ .arrow_6 button{
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(233, 232, 232);
+    margin: 0 20px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-weight:900;
+    color: #424242;
+    opacity: 0.5;
+}
+.arrow_6 :hover{
+    transform: scale(110%);
+    opacity: 0.87;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.329);
+    transition: 1s ;
+}
+
+.subtitle h2{
+    padding-left: 70px ;
+    padding-right: 100px ;
+    padding-top: 50px;
+    font-size: 27px;
+    transform: translateY(15px) translateX(40px);
+}
+
+
+.carrossel_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+    padding-left: 80px;
+    margin-left: 15px;
+    position: relative;
+    width: 1100px;
+    justify-content: space-between;
+
+}
+.product_2{
+    transition: 0.7s ease-in-out;
+    height: 500px;
+    width: 370px;
+    box-shadow: 2px 4px 12px #00000025;
+    border-radius: 20px;
+    margin: 10px;
+    align-content: left;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.product_2{
+    color: white;
+}
+.product_2 h2{
+    color: white;
+}
+.product_2 h6{
+    color: white;
+}
+#product_mac h2{
+    color: #1d1d1f;
+    font-size: 26px;
+    text-align: left;
+    scrollbar-width: none;
+}
+#product_mac h5,h6{
+    color:#545455;
+}
+#product_mac h6{
+    color:#545455;
+}
+
+#product_mac{
+    background-image:url(../Apple-IMG/Carrossel_2/MacAir.jpeg);
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+#product_iphone-15-pro{
+    background-image:url(../Apple-IMG/Carrossel_2/iphonePro.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+#product_watch-9{
+    background-image:url(../Apple-IMG/Carrossel_2/watch\ S9.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+#product_ipad h2{
+    color: #1d1d1f;
+    font-size: 26px;
+    text-align: left;
+    scrollbar-width: none;
+}
+#product_ipad h5,h6{
+    color:#545455;
+}
+#product_ipad h6{
+    color:#545455;
+}
+
+#product_ipad{
+    background-image:url(../Apple-IMG/Carrossel_2/ipad.jpeg);
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+
+#product_uauforia h2{
+    color: #1d1d1f;
+    font-size: 26px;
+    text-align: left;
+    scrollbar-width: none;
+}
+#product_uauforia h5,h6{
+    color:#545455;
+}
+#product_uauforia h6{
+    color:#545455;
+}
+
+#product_uauforia{
+    background-image:url(../Apple-IMG/Carrossel_2/Uauforia.jpeg);
+    background-size:cover;
+    cursor: pointer;
+}
+
+
+#product_macPro h2{
+    color: #1d1d1f;
+    font-size: 26px;
+    text-align: left;
+    scrollbar-width: none;
+}
+#product_macPro h5{
+    color:#545455;
+}
+#product_macPro h6{
+    color:#545455;
+}
+
+#product_macPro{
+    background-image:url(../Apple-IMG/Carrossel_2/MacPro.jpeg);
+    background-size:cover;
+    cursor: pointer;
+}
+
+#product_watch-ultra2 h2{
+    color: #1d1d1f;
+    font-size: 26px;
+    text-align: left;
+    scrollbar-width: none;
+}
+#product_watch-ultra2 h5{
+    color:#545455;
+}
+#product_watch-ultra2 h6{
+    color:#545455;
+}
+
+#product_watch-ultra2{
+    background-image:url(../Apple-IMG/Carrossel_2/watch\ U2.jpeg);
+    background-size:cover;
+    cursor: pointer;
+}
+
+#product_ipadPro{
+    background-image:url(../Apple-IMG/Carrossel_2/ipadPro.jpeg);
+    background-size:cover;
+    cursor: pointer;
+}
+
+#product_watch-se h2{
+    color: #1d1d1f;
+    font-size: 26px;
+    text-align: left;
+    scrollbar-width: none;
+}
+#product_watch-se h5{
+    color:#545455;
+}
+#product_watch-se h6{
+    color:#545455;
+}
+
+#product_watch-se{
+    background-image:url(../Apple-IMG/Carrossel_2/watch\ SE.jpeg);
+    background-size:cover;
+    cursor: pointer;
+}
+
+#product_novo h2{
+    color: #1d1d1f;
+    font-size: 26px;
+    text-align: left;
+    scrollbar-width: none;
+}
+#product_novo h5{
+    color:#545455;
+}
+#product_novo h6{
+    color:#545455;
+}
+
+#product_novo{
+    background-image:url(../Apple-IMG/Carrossel_2/Pulseiras.jpeg);
+    background-size:cover;
+    cursor: pointer;
+}
+.subtitle_2 h2{
+    padding-left: 70px ;
+    padding-right: 100px ;
+    padding-top: 50px;
+    font-size: 27px;
+    transform: translateY(15px) translateX(40px);
+}
+
+.carrossel_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+    padding-left: 80px;
+    margin-left: 15px;
+    position: relative;
+    width: 1100px;
+    justify-content: space-between;
+
+}
+
+.card{
+    transition: 0.7s ease-in-out;
+    height: 550px;
+    width: 470px;
+    box-shadow: 2px 4px 12px #00000025;
+    border-radius: 20px;
+    margin: 10px;
+    align-content: left;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.card h2{
+    color: #1d1d1f;
+    font-size: 26px;
+    text-align: left;
+    scrollbar-width: none;
+}
+.card h5,h6{
+    color:#545455;
+}
+.card h5{
+    font-size: 17px;
+    font-weight: normal;
+}
+.card h6{
+    color:#545455;
+}
+
+#card_especialista{
+    background-image:url(../Apple-IMG/Carrossel_3/especialista.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#card_vem{
+    background-image:url(../Apple-IMG/Carrossel_3/vem-iphone.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#card_today{
+    background-image:url(../Apple-IMG/Carrossel_3/today.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#card_config{
+    height: 260px;
+    width: 470px;
+    box-shadow: 2px 4px 12px #00000025;
+    border-radius: 20px;
+    margin: 10px;
+    align-content: left;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#card_receba{
+    height: 260px;
+    width: 470px;
+    box-shadow: 2px 4px 12px #00000025;
+    border-radius: 20px;
+    margin: 10px;
+    align-content: left;
+    padding-left: 20px;
+    cursor: pointer;
+}
+#card_config h2{
+    text-align: left;
+    font-size: 23px;
+    margin: 15px;
+    margin-top: 25px;
+}
+
+#card_receba h2{
+    font-size: 23px;
+    text-align: left;
+    margin: 15px;
+    margin-top: 55px;
+}
+
+.coluna{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#card_config{
+    background-image:url(../Apple-IMG/Carrossel_3/config.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+#card_receba{
+    background-image:url(../Apple-IMG/Carrossel_3/receba.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.subtitle_3 h2{
+    padding-left: 70px ;
+    padding-right: 100px ;
+    padding-top: 50px;
+    font-size: 27px;
+    transform: translateY(15px) translateX(40px);
+}
+
+.beneficios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+    padding-left: 80px;
+    margin-left: 15px;
+    position: relative;
+    width: 1100px;
+    justify-content: space-between;
+
+}
+
+.card_2{
+    transition: 0.7s ease-in-out;
+    height: 200px;
+    width: 270px;
+    box-shadow: 2px 4px 12px #00000025;
+    border-radius: 20px;
+    margin: 10px;
+    align-content: left;
+    cursor: pointer;
+    background-color: white;
+    padding: 20px;
+}
+
+.card_2 h2{
+    color: #1d1d1f;
+    font-size: 23px;
+    text-align: left;
+    scrollbar-width: none;
+}
+.card_2 h5,h6{
+    color:#545455;
+}
+.card_2 h6{
+    color:#545455;
+}
+
+.card_2 span{
+    color: #06c;
+}
+
+.subtitle_4 h2{
+    padding-left: 70px ;
+    padding-right: 100px ;
+    padding-top: 50px;
+    font-size: 27px;
+    transform: translateY(15px) translateX(40px);
+}
+
+.carrossel_4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+    padding-left: 80px;
+    margin-left: 15px;
+    position: relative;
+    width: 1100px;
+    justify-content: space-between;
+
+}
+
+.product_3{
+    transition: 0.7s ease-in-out;
+    height: 500px;
+    width: 290px;
+    box-shadow: 2px 4px 12px #0000002d;
+    border-radius: 20px;
+    margin: 10px;
+    align-content: center;
+    padding-left: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#iphone{
+    width: 230px;
+    background-size: cover;
+    padding-left: 20px;
+    margin-top: 80px;
+}
+
+#card_cores{
+    transition: 0.7s ease-in-out;
+    height: 500px;
+    width: 380px;
+    box-shadow: 2px 4px 12px #0000002d;
+    border-radius: 20px;
+    margin: 10px;
+    align-content:normal;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#card_cores{
+    background-image:url(../Apple-IMG/Carrossel_4/card_colors.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+.product_3 h2{
+    color: #1d1d1f;
+    font-size: 23px;
+    text-align: left;
+    scrollbar-width: none;
+}
+
+#card_cores h5{
+    color:#545455;
+    transform: translateY(-20px);
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+#card_cores h2{
+    padding-top: 40px;
+    padding-left: 15px;
+    font-size: 26px;
+}
+
+.novo{
+    color:rgb(172, 3, 3);
+    font-size: 12px;
+    padding-top: 30px ;
+}
+
+.descrição{
+    color:#1d1d1f;
+    font-weight: 700;
+    font-size: 17px;
+    margin-right: 15px;
+}
+
+.preço{
+    margin-bottom: 30px;
+}
+
+#card_descubra{
+    transition: 0.7s ease-in-out;
+    height: 500px;
+    width: 380px;
+    box-shadow: 2px 4px 12px #0000002d;
+    border-radius: 20px;
+    margin: 10px;
+    align-content:normal;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#card_descubra{
+    background-image:url(../Apple-IMG/Carrossel_4/card_descubra.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#card_descubra h5{
+    color:#545455;
+    transform: translateY(-20px);
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+#card_descubra h2{
+    padding-top: 35px;
+    padding-left: 15px;
+    font-size: 26px;
+}
+
+.subtitle_5 h2{
+    padding-left: 70px ;
+    padding-right: 100px ;
+    padding-top: 50px;
+    font-size: 27px;
+    transform: translateY(15px) translateX(40px);
+}
+
+.carrossel_5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+    padding-left: 80px;
+    margin-left: 15px;
+    position: relative;
+    width: 1100px;
+    justify-content: space-between;
+
+}
+
+.fones{
+    transition: 0.7s ease-in-out;
+    height: 500px;
+    width: 290px;
+    box-shadow: 2px 4px 12px #0000002d;
+    border-radius: 20px;
+    margin: 10px;
+    align-content: center;
+    padding-left: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#card_fone{
+    transition: 0.7s ease-in-out;
+    height: 500px;
+    width: 380px;
+    box-shadow: 2px 4px 12px #0000002d;
+    border-radius: 20px;
+    margin: 10px;
+    align-content:normal;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#card_fone{
+    background-image:url(../Apple-IMG/Carrossel_5/apple-music.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#card_fone h5{
+    color:#545455;
+    transform: translateY(-20px);
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+#card_fone h2{
+    color: #1d1d1f;
+    padding-top: 40px;
+    padding-left: 15px;
+    font-size: 26px;
+}
+
+#iphone_2{
+    width: 230px;
+    background-size: cover;
+    padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subtitle_6 h2{
+    padding-left: 70px ;
+    padding-right: 100px ;
+    padding-top: 50px;
+    font-size: 27px;
+    transform: translateY(15px) translateX(40px);
+}
+
+.carrossel_6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+    padding-left: 80px;
+    margin-left: 15px;
+    position: relative;
+    width: 1100px;
+    justify-content: space-between;
+
+}
+
+.serviços_tv{
+    transition: 0.7s ease-in-out;
+    height: 530px;
+    width: 470px;
+    box-shadow: 2px 4px 12px #0000002d;
+    border-radius: 20px;
+    margin: 10px;
+    align-content: left;
+    text-align: left;
+    padding-left: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+#tv{
+    background-image:url(../Apple-IMG/Carrossel_6/servço_tv.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#tv h6{
+    color:#ffffff;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    padding-top: 30px ;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#tv h2{
+    color: #ffffff;
+    padding-left: 15px;
+    padding-top: 0;
+    font-size: 26px;
+}
+
+#casa h2{
+    color:#1d1d1f;
+    padding-left: 15px;
+    padding-top: 0;
+    font-size: 26px;
+}
+
+#casa h6{
+    color:#1d1d1f;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    padding-top: 30px ;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.serviços_tv h2{
+    color:#1d1d1f;
+    padding-left: 15px;
+    padding-top: 30px;
+    font-size: 26px;
+}
+
+#cinco{
+    background-image:url(../Apple-IMG/Carrossel_6/serviço_cinco.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+#pay{
+    background-image:url(../Apple-IMG/Carrossel_6/serviço_pay.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#casa{
+    background-image:url(../Apple-IMG/Carrossel_6/serviço_casa.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.subtitle_7 h2{
+    padding-left: 70px ;
+    padding-right: 100px ;
+    padding-top: 50px;
+    font-size: 27px;
+    transform: translateY(15px) translateX(40px);
+}
+
+.Lojas_especiais{
+    display: grid;
+    margin-left:95px ;
+    grid-template-columns: 1fr 1fr ;
+    text-align: left;
+    position: relative;
+    width: 850px;
+}
+
+#n{
+    transition: 0.7s ease-in-out;
+    height: 500px;
+    width: 380px;
+    box-shadow: 2px 4px 12px #0000002d;
+    border-radius: 20px;
+    margin: 10px;
+    align-content:normal;
+    padding-left: 20px;
+    cursor: pointer;
+    color:#1d1d1f;
+}
+
+.educação{
+    background-image:url(../Apple-IMG/Lojas_especiais/EDUCAÇÃO.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.negócios{
+    background-image:url(../Apple-IMG/Lojas_especiais/NEGÓCIOS.jpeg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.negócios h2{
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.negócios h6{
+    color: #ffffff;
+}
+
+.educação h2{
+    color:#1d1d1f;
+    font-size: 26px;
+}
+
+.educação h6{
+    color:#1d1d1f;
+}
+
+.subtitle_8 h2{
+    padding-left: 70px ;
+    padding-right: 100px ;
+    padding-top: 30px;
+    font-size: 27px;
+    transform: translateY(15px) translateX(40px);
+    color:#1d1d1f;
+}
+
+.links_rapidos{
+    margin-left:105px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.links_rapidos button{
+    background-color: transparent;
+    border: solid 1px #1d1d1f;
+    height: 35px;
+    border-radius: 35px;
+    color: #1d1d1f;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.links_rapidos :hover{
+    background-color: #1d1d1f;
+    border:none;
+    color: #ffffff;
+    transition: 20ms;
+}
+
+.lembretes{
+    margin-left: 180px;
+    margin-right: 180px;
+    color:#6e6e73;
+    text-align:justify ;
+    margin-top: 40px;
+}
+
+.lembretes p{
+    font-size: 13px;
+}
+
+.divisao{
+    margin-left: 180px;
+    margin-right: 180px;
+    height: 1px;
+    width: 970px;
+    background-color:#6e6e738e;
+    
+}
+
+.rodape{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    
+}
+
+.rodape ul{
+ list-style: none;
+ color:#6e6e73;
+ line-height: 30px;
+}
+
+.rodape li{
+    font-size: 12px;
+   
+}
+
+#lista{
+    color:#2e2e31;
+    text-decoration: none;
+    cursor:auto;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.rodape ul :hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#copy{
+    margin-left: 180px;
+    font-size: 12px;
+    color: #6e6e73;
+}
+.br{
+    margin-left: 322px;
+    font-size: 12px;
+    color: #6e6e73;
+}
+
+#inf{
+    margin-left: 180px;
+    color: #6e6e73;
+}
+
+#inf p{
+    font-size: 12px;
+}
+
+#inf a{
+    color: #06c;
+}
+
+.privacidade{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 0;
+    width: 1000px;
+    justify-content:left;
+    margin-left: 180px;
+}
+
+.privacidade p{
+    font-size: 13px;
+    color:#3e3e42;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+
+.privacidade :hover{
+    cursor: pointer;
+}
